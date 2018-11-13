@@ -1,0 +1,81 @@
+html, body{
+	height: 100%;
+/*background: #1FA2FF;   fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */*/
+/*background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*body {
+  padding-top: 50px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+*/.landingPage{
+	height: 100vh;
+	background: url(../images/bamboo-bamboo-whisk-board-461428.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.namePlate{
+	text-align: center;
+	margin-top: 100px;
+	background-color: rgba(206,232,209, 0.1);
+	-moz-box-shadow: 0 0 3px #ccc;
+	-webkit-box-shadow: 0 0 3px #ccc;
+	box-shadow: 0 0 3px #ccc;
+	border-radius: 15px;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+								0px 8px 14px rgba(0,0,0,0.1),
+								0px 18px 25px rgba(0,0,0,0.1);
+}
+.namePlate h2{
+	font-size: 6vh;
+	font-weight: 400;
+	max-width: 90%;
+}
+.namePlate h1{
+	font-size: 8.5vh;
+	font-weight: 700;
+	max-width: 90%;
+}
+.namePlate p{
+	font-size: 4vh;
+	font-weight: normal;
+	max-width: 90%;
+}
+
+.ayurveda{
+	text-align: center;
+	padding: 15px;
+	border-radius: 15px;
+	font-size: 1.5em;
+}
+.ayurveda h3{
+	font-size: 3em;
+}
+.Panchakarma{
+	text-align: center;
+	padding: 15px;
+	border-radius: 15px;
+	font-size: 1.5em;
+}
+#card-title{
+	font-size: 3em;
+}
+.Panchakarma h3{
+	font-size: 2em;
+}
+.Treatments{
+	text-align: center;
+	padding: 15px;
+	border-radius: 15px;
+	font-size: 1.5em;
+}
+.Treatments h3{
+	font-size: 2em;
+}
+
