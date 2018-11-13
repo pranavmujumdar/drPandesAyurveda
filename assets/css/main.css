@@ -32,6 +32,11 @@ html, body{
 								0px 8px 14px rgba(0,0,0,0.1),
 								0px 18px 25px rgba(0,0,0,0.1);
 }
+@media (max-width: 979px) {
+	.namePlate{
+		margin-top: 20px;
+	}
+}
 .namePlate h2{
 	font-size: 6vh;
 	font-weight: 400;
