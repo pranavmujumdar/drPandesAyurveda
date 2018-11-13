@@ -12,7 +12,6 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="assets/scripts/script.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -31,9 +30,9 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		   <div class="collapse navbar-collapse" id="navbarHeaderCollapse">
 		     <ul class="nav navbar-nav">
-		       <li class="active"><a href="#Ayurveda"><i class="fas fa-home"></i> Ayurveda</a></li>
+		       <li class="active"><a href="#Ayurveda"><i class="fas fa-leaf"></i> Ayurveda</a></li>
 		       <li class="dropdown">
-          <a href="#panchakarma" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Panchakarma <span class="caret"></span></a>
+          <a href="#panchakarma" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-heartbeat"></i> Panchakarma <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#Vamana">Vamana</a></li>
             <li><a href="#Virechana">Virechana</a></li>
@@ -43,7 +42,7 @@
           </ul>
         	</li>
 		       <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Treatments <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-prescription"></i> Treatments <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#Snehana">Snehana</a></li>
             <li><a href="#Swedana">Swedana</a></li>
@@ -56,10 +55,10 @@
             <li><a href="#SaundaryaChikitsa">Saundarya Chikitsa</a></li>
           </ul>
         </li>
-		       <li><a href="#ourteam"><i class="fas fa-people-carry"></i> About Me</a></li>  
+		       <li><a href="#about"><i class="fas fa-user-md"></i> About Me</a></li>  
 		     </ul>
 		     <ul class="nav navbar-nav navbar-right">
-		       <li><a href="#contactus">Contact <i class="fas fa-phone"></i></a></li> 
+		       <li><a href="#contact">Contact <i class="fas fa-phone"></i></a></li> 
 		     </ul>
 		   </div><!-- /.navbar-collapse -->
 		 </div><!-- /.container-fluid -->
@@ -68,6 +67,9 @@
 		<div class="container">
 			<div class="alert alert-info" role="alert" style="margin-top: 75px;">
 				New Well equipped Panchakarma facility opening <strong>on November 16, 2018</strong>
+			</div>
+				<div class="alert alert-warning" role="alert">
+				Website Under Construction
 			</div>
 			<div class="namePlate col-md-12">
 				<h2>Vaidya Rahul Pande's</h2>
@@ -276,12 +278,12 @@
 			</div>
 		</div>
 
-		<div id="About">
+		<div id="about">
 			<div class="container">
 				<div class="col-md-6">
 					
-						<h4>Our Specialities</h4>
-							<ul>
+						<h4 style="font-size: 3em">Our Specialities</h4>
+							<ul style="font-size: 1.5em">
 								<li>Specious Panchakarma Clininc with modern equipments & machinery.</li>
 								<li>Trained Panchakarma Staff.</li>
 								<li>'Nadiparikshan' by expert Vaidya & 'Naditarangini' machine which is perfect blend of ancient ayurveda & modern technology.</li>
@@ -293,12 +295,25 @@
 								<li>Spacialty ayurveda treatments before and during pregnancy for healthier and bright child. </li>
 								<li>Authentic " Suvarna prashan " treatment for children.</li>
 							</ul>
-							
 				</div>
-
+				<div class="col-md-6">
+					<h4 style="font-size: 3em">About Me</h4>
+					<div class="col-md-offset-4"><img src="assets/images/ProfilePic.jpeg" class="img-thumbnail img-responsive" style="height: 240px"></div>
+					<div style="font-size: 1.5em"><p> I am Dr Rahul Ramesh Pande<br>I did my Bachelors in Bachelor of Ayurvedic Medicine and Surgery from M. S. Ayurved college,  Gondia, Maharashtra<br>I completed my Post graduate fellowship from Tilak Ayurved College, Pune<br>I further studied Diploma in Yoga and Ayurveda from Tilak Maharashtra Vidyapeeth, Pune <br>I have been practising and consulting Ayurvedic Medicine and Panchakarma therapy for 8+ years
+					</p></div>
+				</div>
 			</div>	
 		</div>
-	
+
+		<div id="contact" style="width: 100%; background-color: steelblue; margin-top: 25px; padding-top: 25px;">
+			<div class="container" style="text-align: center;">
+			<h4 style="font-size: 3em; padding-bottom: 10px;">Contact</h4>
+			<h4 style="font-size: 2em; padding-bottom: 10px">Shree Vighnaharta Ayurvedic Panchakarma Chikitsalaya</h4>
+			<p style="font-size: 1.2em">Opposite Bharat Medical, New Area Ward, Jamner road, Bhusawal<br> Morning 10am to 2pm<br>And <br>Mahaganpati Plaza, Near K Narkhede College, Sharda Nagar, Bhusawal<br> Evening 6pm to 9pm </p>
+			<p style="font-size: 1.2em">Call: <a id="hyperlink" href="tel:+91-9822212903" style="text-decoration: none; color: inherit;"> <i class="fas fa-mobile-alt"></i> +91-9822212903</a></p>
+		</div>
+		</div>
+		
 
 </body>
 </html>
