@@ -13,7 +13,18 @@ html, body{
     padding-top: 0px;
   }
 }
-*/.landingPage{
+*/
+body{
+	overflow-x: hidden;
+	font-size: 14px;
+}
+@media (max-width: 750px) {
+  body {
+  		font-size: 12px;
+  }
+}
+
+.landingPage{
 	height: 100vh;
 	background: url(../images/bamboo-bamboo-whisk-board-461428.jpg);
 	background-repeat: no-repeat;
@@ -33,23 +44,31 @@ html, body{
 								0px 8px 14px rgba(0,0,0,0.1),
 								0px 18px 25px rgba(0,0,0,0.1);
 }
-@media (max-width: 979px) {
+@media (min-width: 750px) {
 	.namePlate{
-		margin-top: 20px;
+		padding-left: 100px;
+	}
+}
+@media (max-width: 750px) {
+	.namePlate{
+		margin-top: 5px;
+		margin-bottom: 0px;
 	}
 }
 .namePlate h2{
-	font-size: 6vh;
+	font-size: 3em;
 	font-weight: 400;
 	max-width: 90%;
+	margin-top: 5px;
+	margin-bottom: 0px;
 }
 .namePlate h1{
-	font-size: 8.5vh;
+	font-size: 4em;
 	font-weight: 700;
 	max-width: 90%;
 }
 .namePlate p{
-	font-size: 4vh;
+	font-size: 2.5em;
 	font-weight: normal;
 	max-width: 90%;
 }
